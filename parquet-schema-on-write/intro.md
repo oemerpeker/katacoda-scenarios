@@ -21,30 +21,39 @@ Storing data in this manner, which is implemented within Parquet, introduces a n
 - Efficiency: When querying columnar storage, you can skip over the non-relevant data very quickly, which makes aggregation queries less time-consuming compared to row-oriented databases.
 - Compression: Parquet and similar column-oriented formats are built to support flexible compression options and efficient encoding schemes.
 
-## Description
+# Schema-on-read and schema-on-write [2](https://www.marklogic.com/blog/schema-on-read-vs-schema-on-write/)
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
+That leaves us with the term "schema-on-write".
+Let's assume that you were assigned with creating a database which is meant to store user data of your company's web site.
+Typically, a database like this would include columns such as:
 
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+- Username
+- E-Mail address
+- Password (encrypted)
+- ...
 
-## Learning Objective
+Conventionally, you would write down every column that is needed on a piece of paper, and then, once you are certain that you thought of everything, you would construct that schema in your database.
+This means that the database's schema is pre-defined.
+Writing new data will have to follow that schema in order for the database management system to correctly handle it.
+Similarly, reading existing data will always return data that follows the pre-defined schema.
+This approach is known as "schema-on-write", and has been a conventional approach to construct databases for decades.
+However, this is not the only approach.
 
-- 3-4 bullets
-- of what you
-- will learn
+That's where "schema-on-read" comes into the equation.
+With schema-on-read, a different sequence is followed, whereby the data is just loaded as-is.
+When reading the data, a unique lens could be applied, thus making it possible to retrieve data in a schema that suits your needs.
 
-## Prerequisite Skills
+As both of these approaches include their own range of pros and cons, neither can be called the "better" approach.
+> Depending on the situation and on what outcome is deemed desirable, either approach could prove itself the more suited one.
+Some of the pros and cons:
 
-Define the target audience here, and list any prerequisite skills. For example:
+![Pros and cons of schema-on-read](assets/schema_on_read_pros_cons.png)
 
-This is for software developers with prior experience using Jenkins to deploy web applications.
+---
 
-## Table of Contents
+This katacoda will interactively cover how Parquet can be used as a data file format to implement a schema-on-write solution.
+To create and explain the code iteratively, a Jupyter Notebook will be used.
+Let's get started by installing that!
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
 
 
