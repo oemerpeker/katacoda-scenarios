@@ -8,6 +8,7 @@ But first of all, it is important to understand what Parquet actually is.
 > Parquet ist an open source, column-oriented data file format, meaning that, unlike in row-oriented data file formats like CSV, files are organized by column, rather than by row. [1](https://databricks.com/de/glossary/what-is-parquet)
 
 The following illustrations depict what a row- and column-oriented data file format essentially look like.
+
 ![Row-oriented data file format](assets/row_oriented.png)
 ![Column-oriented data file format](assets/column_oriented.png)
 
