@@ -12,6 +12,15 @@ The following illustrations depict what a row- and column-oriented data file for
 ![Row-oriented data file format](assets/row_oriented.png)
 ![Column-oriented data file format](assets/column_oriented.png)
 
+The first illustration shows a row-oriented format, which is similar to a table - the column names are written into the first row, and every row that follows afterwards contains data at the corresponding column.
+
+The second illustration shows how the same dataset could be stored in a column-oriented format - each row contains a column name and every single piece of data inside of that column.
+
+Storing data in this manner, which is implemented within Parquet, introduces a number of advantages, some of which are the following:
+
+- Efficiency: When querying columnar storage, you can skip over the non-relevant data very quickly, which makes aggregation queries less time-consuming compared to row-oriented databases.
+- Compression: Parquet and similar column-oriented formats are built to support flexible compression options and efficient encoding schemes.
+
 ## Description
 
 2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
