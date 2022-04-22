@@ -30,6 +30,10 @@
         {
           "file": "main.ipynb",
           "target": "~/"
+        },
+        {
+          "file": "crude-oil-price.csv",
+          "target": "~/"
         }
       ]
     }
