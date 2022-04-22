@@ -25,6 +25,7 @@ pq.write_table(table, 'example.parquet')
 </pre>
 
 This creates a single Parquet file.
+This is already part of the schema-on-write process, as the data is written into a columnar format at this step.
 Naturally, the reverse is also possible, as we can read a single file back with "read_table":
 
 <pre class="file" data-target="clipboard">

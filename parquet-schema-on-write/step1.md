@@ -1,5 +1,3 @@
-# Running the Jupyter Notebook
-
 You will now run a Docker container for Jupyter Notebook.
 
 Some commands will be invoked in the terminal to your right. They pull and run a container containing all the necessary packages to get started with Parquet in a Jupyter Notebook.

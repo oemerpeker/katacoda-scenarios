@@ -1,20 +1,12 @@
+Congratulations to working with your first parquet file!
 
-On the finish page, summarize what was just learned:
+You learned how to read a CSV file, how to work with it within Pandas and how to use Parquet as a means to implement a simple schema-on-write database.
+You have saved the result into an external file, which can be further worked with, and you have seen how this file has a unique schema different from the former CSV file.
 
-- 3-4 bullets
-- of what you just
-- did and learned
+These skills serve as a stepping stone for setting up more complex database management systems that can take advantage of the benefits of schema-on-write.
 
-## Table of Contents
+More resources can be found [here](https://www.programcreek.com/python/example/124550/pyarrow.parquet.ParquetDataset).
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
-
-## Further Learning
-
-You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
+Thanks for taking this Katacoda!
 
 

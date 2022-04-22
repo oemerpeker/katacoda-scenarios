@@ -48,6 +48,7 @@ As both of these approaches include their own range of pros and cons, neither ca
 Some of the pros and cons:
 
 ![Pros and cons of schema-on-read](assets/schema_on_read_pros_cons.png)
+*Buckenhofer-DWH02-Architecture.pdf Slide 47*
 
 ---
 
