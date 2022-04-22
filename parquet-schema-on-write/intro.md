@@ -36,11 +36,11 @@ Conventionally, you would write down every column that is needed on a piece of p
 This means that the database's schema is pre-defined.
 Writing new data will have to follow that schema in order for the database management system to correctly handle it.
 Similarly, reading existing data will always return data that follows the pre-defined schema.
-This approach is known as "schema-on-write", and has been a conventional approach to construct databases for decades.
+This approach is known as "schema-on-read", and has been a conventional approach to construct databases for decades.
 However, this is not the only approach.
 
-That's where "schema-on-read" comes into the equation.
-With schema-on-read, a different sequence is followed, whereby the data is just loaded as-is.
+That's where "schema-on-write" comes into the equation.
+With schema-on-write, a different sequence is followed, whereby the data is just loaded as-is.
 When reading the data, a unique lens could be applied, thus making it possible to retrieve data in a schema that suits your needs.
 
 As both of these approaches include their own range of pros and cons, neither can be called the "better" approach.
@@ -48,7 +48,6 @@ As both of these approaches include their own range of pros and cons, neither ca
 Some of the pros and cons:
 
 ![Pros and cons of schema-on-read](assets/schema_on_read_pros_cons.png)
-*Buckenhofer-DWH02-Architecture.pdf Slide 47*
 
 ---
 

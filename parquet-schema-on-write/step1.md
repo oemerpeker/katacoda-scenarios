@@ -4,6 +4,7 @@ Some commands will be invoked in the terminal to your right. They pull and run a
 Additionally, a blank example notebook and some example data used later on will be copied to it. This may take some time, so hang on.
 Regularly, you would install the parquet package via `pip install pyarrow`.
 However, since the goal is showcasing its capabilities in a Jupyter Notebook, we are doing it this way.
+Keep in mind that this process can take several minutes.
 
 Finally, we need to print the logs of the container.
 `docker logs jupyter`{{execute}}
