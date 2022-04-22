@@ -1,8 +1,8 @@
 {
-  "title": "Parquet - a data format for a schema-on-write",
-  "description": "A simple scenario example.",
-  "difficulty": "Beginner",
-  "time": "3 minutes",
+  "title": "Parquet",
+  "description": "Parquet as an example data format for schema-on-write.",
+  "difficulty": "Intermediate",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
