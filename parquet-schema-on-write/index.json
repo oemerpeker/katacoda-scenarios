@@ -1,6 +1,6 @@
 {
   "title": "Parquet",
-  "description": "Parquet as an example data format for schema-on-write.",
+  "description": "Parquet as an example data format for schema-on-write",
   "difficulty": "Intermediate",
   "time": "10 minutes",
   "details": {
@@ -25,6 +25,14 @@
     "finish": {
       "text": "finish.md"
     }
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "main.ipynb",
+        "target": "~/"
+      }
+    ]
   },
   "environment": {
     "uilayout": "terminal-iframe",
