@@ -1,4 +1,4 @@
-# New Scenario Template (Your Title Here)
+# Parquet as a data format for a schema-on-write
 
 This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
 
